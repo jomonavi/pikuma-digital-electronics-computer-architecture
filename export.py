@@ -5,8 +5,8 @@ import re
 # This script reads a CSV with the definition of our control unit ROM and
 # generates a .hex output in the correct forma expected by Logisim ROM input.
 ###############################################################################
-INPUT_CSV = "rom-cu-2.csv"
-OUTPUT_HEX = "output-3.hex"
+INPUT_CSV = "rom-cu.csv"
+OUTPUT_HEX = "output.hex"
 WORDS_PER_LINE = 8
 
 HEX_RE = re.compile(r"^[0-9A-Fa-f]+$")
